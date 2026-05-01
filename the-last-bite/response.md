@@ -1,0 +1,457 @@
+{
+  "messages": [
+    {
+      "type": "HumanMessage",
+      "content": "Find a recipe based on these ingredients: Mahua flowers,  bamboo shoots,  ragi,  mustard oil",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "id": "8b8cb904-2d21-4903-9da3-46d36e393fa9"
+    },
+    {
+      "type": "AIMessage",
+      "content": [],
+      "additional_kwargs": {
+        "function_call": {
+          "name": "search",
+          "arguments": "{\"query\": \"ragi dumplings with mahua and bamboo shoot recipe\"}"
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-3-flash-preview",
+        "safety_ratings": [],
+        "model_provider": "google_genai"
+      },
+      "id": "lc_run--019de33b-9dd2-7330-b588-a336a468b38f-0",
+      "tool_calls": [
+        {
+          "name": "search",
+          "args": {
+            "query": "recipe with Mahua flowers, bamboo shoots, ragi, and mustard oil"
+          },
+          "id": "383c2ebf-b87f-458c-9bf0-2ab8131e4c41",
+          "type": "tool_call"
+        },
+        {
+          "name": "search",
+          "args": {
+            "query": "Mahua flower and bamboo shoot traditional recipe Jharkhand Odisha"
+          },
+          "id": "2be33cee-ac61-4d1d-9a4d-dbdcda69f0ab",
+          "type": "tool_call"
+        },
+        {
+          "name": "search",
+          "args": {
+            "query": "Mahua flower curry with bamboo shoots recipe"
+          },
+          "id": "bf3fcc07-b325-4f94-9781-4435d31ab498",
+          "type": "tool_call"
+        },
+        {
+          "name": "search",
+          "args": {
+            "query": "ragi dumplings with mahua and bamboo shoot recipe"
+          },
+          "id": "60e51aa7-341d-43f8-ae7f-709669daff4b",
+          "type": "tool_call"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 357,
+        "output_tokens": 331,
+        "total_tokens": 688,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 236
+        }
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "name": "search",
+      "id": "e24d1daa-4ec2-442c-8fd6-7f47665f30d8",
+      "tool_call_id": "383c2ebf-b87f-458c-9bf0-2ab8131e4c41",
+      "content": {
+        "query": "recipe with Mahua flowers, bamboo shoots, ragi, and mustard oil",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://bamboosahihai.com/bamboo-health-and-wellness/bamboo-shoot-recipes-delicious-healthy-indian-dishes/",
+            "title": "Bamboo Shoot Recipes: Delicious & Healthy Indian Dishes",
+            "content": "2-3 dried red chilies\n\n3-4 garlic cloves\n\nSalt to taste\n\n1 tbsp mustard oil\n\nInstructions:\n\nDry roast red chilies and garlic until aromatic.\n\nBlend fermented bamboo shoots, roasted chilies, and garlic into a coarse paste.\n\nAdd mustard oil and salt, mix well.\n\nServe as a side dish with rice and dal.\n\n### 3. Bamboo Shoot and Black Chana Sabzi\n\nIngredients:\n\n1 cup boiled black chana (chickpeas)\n\n½ cup fresh bamboo shoots (chopped)\n\n1 onion (chopped)\n\n1 tomato (chopped)\n\n1 tsp cumin seeds\n\n1 tbsp mustard oil\n\n1 tsp turmeric powder\n\n1 tsp coriander powder\n\nSalt to taste\n\nInstructions:\n\nHeat mustard oil and add cumin seeds.\n\nSauté onions until translucent, then add tomatoes.\n\nAdd turmeric, coriander powder, and salt.\n\nMix in bamboo shoots and cook for 5-7 minutes. [...] ½ cup bamboo shoots (sliced)\n\n1 onion (chopped)\n\n2 tomatoes (chopped)\n\n1 tsp turmeric powder\n\n1 tsp mustard seeds\n\n2 tbsp mustard oil\n\nSalt to taste\n\nFresh coriander leaves for garnish\n\nInstructions:\n\nMarinate fish with turmeric and salt, then fry in mustard oil until golden.\n\nIn the same oil, add mustard seeds and sauté onions until golden.\n\nAdd tomatoes and cook until soft.\n\nMix in bamboo shoots, add salt, and cook for 5 minutes.\n\nAdd fried fish and cook for another 5 minutes.\n\nGarnish with coriander leaves and serve with steamed rice.\n\n### 2. Fermented Bamboo Shoot Chutney (Axone Chutney – Naga Style)\n\nIngredients:\n\n½ cup fermented bamboo shoots\n\n2-3 dried red chilies\n\n3-4 garlic cloves\n\nSalt to taste",
+            "score": 0.5971152,
+            "raw_content": null
+          },
+          {
+            "url": "https://foodism.xyz/food-stories/Cooking-with-Indigenous-Ingredients-A-Celebration-of-Indian-Identity",
+            "title": "Cooking with Indigenous Ingredients: A Celebration of ... - Foodism.xyz",
+            "content": "Heat mustard oil until smoking, then cool slightly for authentic bamboo shoot stir-fry flavour. · Add cumin seeds, green chillies, and boiled bamboo shoots.",
+            "score": 0.56517935,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/chefatlarge/posts/2521567974598496/",
+            "title": "Authentic Indian vegetarian bamboo shoot recipes - Facebook",
+            "content": "Add long beans, and cook 3 to 4 minutes. Add bamboo shoots, and stir-fry 3 minutes. Stir in soy sauce, and cook 1 minute more.",
+            "score": 0.34654185,
+            "raw_content": null
+          },
+          {
+            "url": "https://idronline.org/article/diversity-inclusion/four-tribes-four-recipes-and-much-more-than-zero-waste-cooking/",
+            "title": "Four tribes, four recipes, and much more than 'zero-waste cooking' | IDR",
+            "content": "The Koya tribe, which I belong to, has a rich history of consuming nutritious food. Most of our food came from the forests. We ate vegetables, herbs, and flowers, including the mahua flower. Many people have heard about mahua, but they associate it with alcohol. However, the Koyas and other tribes living in Andhra Pradesh, Telangana, Jharkhand, and Maharashtra use mahua flower to make kheer, jam, biscuits, and laddus. In fact, even now, pregnant women in our community consume mahua laddu because it increases haemoglobin and works as an iron supplement for them.\n\nMahua laddu recipe-zero-waste cooking\nMahua laddu recipe-zero-waste cooking [...] Mahua and other indigenous food like tembhurni were once abundant in West Godavari district. However, this isn't the case any more. Now we buy these from the neighbouring East Godavari district. Due to the shifting cultivation that is practised in our district, we lost a lot of forest area where we used to grow mahua trees. Then there are development projects because of which we lost access to the forest. We can no longer legally collect resources from our own forests. [...] We underwent a training course with Skill India programme to become cooking teachers. We now go from village to village and teach young girls—mostly school dropouts—different recipes and cooking techniques so that, instead of just waiting to get married, they can find sources of livelihood. We teach them innovative recipes such as ragi manchurian, and we also learn from their ways of cooking.",
+            "score": 0.3333952,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DK6tjzNRM6q/",
+            "title": "Instagram",
+            "content": "Bamboo shoot king chilly pickle and Kharoli (a black mustard seeds condiment made with khar - a natural alkali, a popular condiment in Assam)",
+            "score": 0.1591785,
+            "raw_content": null
+          }
+        ],
+        "response_time": 3.37,
+        "request_id": "0b9fd90c-e960-4d7d-95ce-4952b56d09b0"
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "name": "search",
+      "id": "e255924f-4d46-4cae-8370-002f66912261",
+      "tool_call_id": "2be33cee-ac61-4d1d-9a4d-dbdcda69f0ab",
+      "content": {
+        "query": "Mahua flower and bamboo shoot traditional recipe Jharkhand Odisha",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://tribesinsight.com/traditional-tribal-food-bamboo-shoot/",
+            "title": "Traditional Tribal Food \"Bamboo Shoot\" – Tribes Insight",
+            "content": "Bamboo shoots have been found to have a variety of health benefits, including improved appetite and digestion, weight loss, and the treatment of cardiovascular disease and cancer. The shoots have anticancer, antibacterial, and antiviral properties. Because of the presence of phenolic compounds, shoots have antioxidant capacity.\n\nBamboo shoots (Karadi) in Western and South Odisha\n\nThe traditional food (desi Khana) of western Odisha is karadi or karida (bamboo shoot). It is mostly popular in Western and South Odisha. It is available in markets during the bamboo sprouting season. As the monsoon approaches, the natives yearn for Kardi. [...] 5. Pancake Jhuri Karadi Karadi\n\n6. Hendua (Dried chopped bamboo shoots)\n\nAccording to some tribal women, the 'Karadi' has greatly aided them in earning a living during the coronavirus pandemic.\n\nThe people of western and south Odisha are the best at using 'Karadi' in their cooking. While its pickle is popular, housewives keep it in dried form to use during the off season. It is used in the preparation of a wide range of delectable foods. When they have guests, housewives enjoy serving 'Karadi' pickle and other items.\n\nPrev Post\n\nVarious Dimensions Of Tribal Culture\n\nNext Post\n\nOdisha's tribal loved \"Kai chutney\" needs special round applause\n\nWhen Modi Raised a Toast to Koraput Coffee's Tribal Spirit\n\nMadhusmita Soren: The Tribal Culinary Ambassador of Odisha [...] People begin by gathering new baby bamboo shoots (baunsa gaja) from the forest. They chopped them and soaked them in water for 4-5 days to soften the bamboo shoots. This is now known as \"Karadi\" or \"kardi.\"\n\nIt is now common to find strong-smelling \"karadi\" being sold by the roadside in towns and markets. And, surprisingly, they vanished within a few hours of arriving in markets. Because Karadi is only available once a year. They are constantly in demand.\n\nPopular Karadi Recipes\n\nPeople prepare a variety of foods using Karadi (Bamboo Shoots).\n\n1. Ambil is made with this ingredient (a sour vegetable soup)\n\n2. Karadi saga (Pumpkin and Karadi Leaves)\n\n3. Pickle, Karadi ( Karadi Achara)\n\n4. Bhaja, Karadi ( Fried Bamboo shoots)\n\n5. Pancake Jhuri Karadi Karadi",
+            "score": 0.51091194,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=WCTB1t3Q-Uc",
+            "title": "Bas karil fry | Jharkhand's famous recipe | bamboo shoots",
+            "content": "Bamboo shoots fry recipe | karil fry | Bas karil fry | Jharkhand's famous recipe | bamboo shoots. 333 views · 3 years ago.",
+            "score": 0.5015387,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/FoodiesInBBSR/posts/remembering-the-forgotten-recipesepisode-6-%E0%AC%95%E0%AC%B0%E0%AC%A1%E0%AC%BC%E0%AC%BF-%E0%AC%AC%E0%AD%87%E0%AC%B8%E0%AC%B0-bamboo-shoot-rai-odia-cuis/872384314247743/",
+            "title": "କରଡ଼ି ବେସର /Bamboo Shoot Rai Odia cuisine can be ...",
+            "content": "Kardi besaar/ Bambooshoots curry❤❤❤ Kardi or Bambooshoots is a unique delicacy for people of western Odisha. It's mostly available in moonsoon",
+            "score": 0.4921643,
+            "raw_content": null
+          },
+          {
+            "url": "https://timesofindia.indiatimes.com/life-style/food-news/mahua-flowers-the-tribal-blossom-sweetening-forest-cuisine/articleshow/127798637.cms",
+            "title": "Mahua flowers: The tribal blossom sweetening forest cuisine - The Times of India",
+            "content": "## Featured In Food [...] Article image for: Why a child and an adult with leukemia aren't fighting the same cancer\nArticle image for: Octogenarian reclaims health after battling cervical dystonia and undergoing \"brain pacemaker\" surgery\nArticle image for: Alzheimer's hits women harder: Can omega-3 turn the tide?\nArticle image for: Digital life, real heart risk: How to keep your heart safe in a 24/7 non-stop world\nArticle image for: Pain that shows up at night: Doctor explains the strange pattern of pain that waits for the lights to go off\nArticle image for: Right way to chant om\nArticle image for: Stepping into the sun may speed up stroke recovery, AIIMS study suggests; doctor shares key precautions\nArticle image for: Your urine could signal danger: Doctor explains what to watch for [...] ## Photostories",
+            "score": 0.35400915,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=oDry1WDEudE",
+            "title": "Mahuya flower unique recipe with shak cooking by santali tribe grandmothers | village cooking review",
+            "content": "Mahuya flower unique recipe with shak cooking by santali tribe grandmothers | village cooking review. Auto-dubbed. 32K views · 3 years ago.",
+            "score": 0.29197967,
+            "raw_content": null
+          }
+        ],
+        "response_time": 3.49,
+        "request_id": "ef540a0a-59be-4e74-a348-4e74c19f5778"
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "name": "search",
+      "id": "7b5de40c-6a29-4753-8bd5-3081ecf6ed7f",
+      "tool_call_id": "bf3fcc07-b325-4f94-9781-4435d31ab498",
+      "content": {
+        "query": "Mahua flower curry with bamboo shoots recipe",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.divinetaste.com/bamboo-shoot-curry/",
+            "title": "Bamboo Shoot Curry – DivineTaste",
+            "content": "My mother makes three variations with tender young bamboo shoots. Huli- a preparation with dal, Palya- a dry preparation made with coconut oil and enjoyed with hot rice and this curry.\n\nCoriander seeds and dry red chilies are the prime spices used to grind this curry. These spices enhance the taste of the curry and at the same time ensure that the delicate fragrance of the bamboo shoots is not submerged.\n\nA plate of hot rice with this aromatic bamboo shoot curry prepared by my mother takes me back to another era and to a time when life was blissful and magical, a time that you call \"childhood\"! [...] ### For seasoning:\n\n4 tsp oil\n\n½ tsp mustard seeds\n\n½ tsp asafetida\n\n2 to 3 dry red chilies\n\na sprig of curry leaves\n\n2½ tsp to 3 tsp salt or to taste\n\n### Method:\n\nPeel the outer leaves of the bamboo shoot until the tender white portion is revealed and then slice them.\n\nPlace the bamboo shoots in a large bowl of water, cover and keep aside. Change the water everyday for three days and then the bamboo shoots are ready to be cooked.\n\nIn a wok put in the coconut oil and stir in the coriander seeds and dry red chilies. Fry the seeds until they turn aromatic.\n\nIn a blender, put in the coconut, coriander seeds and dry red chilies and grind to a smooth paste. [...] My mother's bamboo shoot curry is very popular in our family and with our friends. And now you can make it too. And if you don't have access to bamboo shoots, then don't fret! Substitute it with any other vegetable of your choice and you will be good to go!\n\nAnd I would like to take your leave, with a shot of my brother and me, two happy souls after eating the bamboo shoot curry, cooked by my mother.\n\n## Bamboo Shoot Curry Recipe\n\nYou can replace the bamboo, with any vegetable of your choice.\n\n### Ingredients:\n\n3 to 4 cups bamboo shoots, prepared and sliced\n\n1 tsp coconut oil\n\n3 tbsp coriander seeds\n\n4 to 5 dry red chilies (use less if your chilies are very spicy)\n\n2 cups coconut, freshly grated or frozen\n\n2 to 3 kokum leaves\n\n### For seasoning:\n\n4 tsp oil\n\n½ tsp mustard seeds",
+            "score": 0.999826,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.cookeatworld.com/laotian-chicken-curry-bamboo-shoots/",
+            "title": "Laotian Chicken Curry with Bamboo Shoots - from Cook Eat World",
+            "content": "Serve scattered with cilantro and alongside some fluffy jasmine rice. [...] 1. Step 1 - Season the hot coconut oil with galangal, lime leaves and garlic briefly before adding the red curry paste. I like to add a little coconut milk too, to avoid it burning in the pan. It also creates a little oil separation which is typical of South East Asian curries.\n2. Step 2 - Add the chicken, then coconut milk and a little water and simmer until the chicken is cooked through, about 25-30 minutes.\n3. Step 3 - Add the bamboo shoots and sugar and simmer for 5 minutes.\n4. Step 4 - Remove from the heat and adjust the seasoning with salty fish sauce and zingy lime juice. That's it!\n\nNow you're good to serve. I like to serve mine scattered with cilantro over fluffy jasmine rice or with rice or egg noodles. [...] Recipe by Lee\n\nCourse Main Course\n\nCuisine Laoatian, Thai\n\nPrep Time10 minutes minutes\n\nCook Time35 minutes minutes\n\nTotal Time45 minutes minutes\n\nServings (adjustable) 4\n\nCalories (per serving) | 527\n\n## Ingredients\n\n 2 tbsp coconut oil\n 4 slices fresh galangal\n 2 kaffir lime leaves\n 2 garlic cloves  (chopped)\n 4 tbsp Thai red curry paste\n 2½ cups coconut milk (600ml/20oz)\n 2.2lb chicken thighs (skinless/boneless)(1kg)\n 3 tbsp fish sauce\n 1 tbsp brown sugar (or white sugar)\n 1 lime (juice of)\n Fresh cilantro (for garnish)\n 1 can Bamboo shoots in water (19oz can)\n\n## Instructions",
+            "score": 0.9997565,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xOkteeQdT1k",
+            "title": "Tender Bamboo Shoots dry Curry - YouTube",
+            "content": "... Bamboo Shoots dry Curry | Bans Karil ki Curry | Kanile Sukka bamboo shoot curry, bamboo shoot, bamboo shoots recipe, bamboo shoots curry, bamboo",
+            "score": 0.9993687,
+            "raw_content": null
+          },
+          {
+            "url": "https://hungryinthailand.com/thai-bamboo-shoot-curry-recipe/",
+            "title": "Thai Bamboo Shoot Curry Recipe (Gaeng Phed Nor Mai)",
+            "content": "With my homemade Thai red curry paste – made of shrimp paste, galangal, lemongrass, and kaffir lime zest – by your side, you can transform a simple pot of coconut milk into a creamy wonder. If you're pressed for time, a store-bought paste will still get you an amazing Thai curry.\n\nFresh Thai bamboo shoots packaged in plastic.\n\nIn Northeastern Thailand, bamboo shoots are readily available at food markets.\n\nIt's a spicy beef and bamboo shoots curry, but this recipe is as customizable as it can be. Feel free to switch up the protein and turn up the heat. The choices are endless, and I'm here to walk you through each step. [...] This Thai red curry bamboo shoots is spicy, if you'd rather try something mild, head over to one of these milder curries: Thai beef panang curry recipe, gang garee curry recipe (Thai yellow curry), and Thai massaman chicken curry.\n\n## What is bamboo shoot curry\n\nBamboo shoot curry is a traditional Thai curry featuring tender bamboo shoots in a spicy and creamy red coconut curry sauce. It's a creamy dish with a balance of heat and sweetness, often served with jasmine rice.\n\n## gaeng phed nor mai recipe\n\nThis is an easy curry recipe that's totally doable for any home cook. [...] Hungry in Thailand - Thai Food Blog\n\nMY FIRST COOKBOOK ❤ Get it now!\n\nHungry in Thailand - Thai Food Blog\n\n# Thai Bamboo Shoot Curry Recipe (Gaeng Phed Nor Mai)\n\nAs an Amazon Associate, I earn from qualifying purchases.\nRead the full disclosure here.\n\nThis Thai bamboo shoot curry recipe, or gaeng phed nor mai, is irresistibly creamy and perfect for an easy weeknight dinner. Make it with my homemade red curry paste or opt for store-bought if you're pressed for time, it'll be delicious either way. Just pair it with steamed jasmine rice for the ultimate comfort food at home!\n\nThai bamboo shoot curry with beef and chilies served in a coconut shell.",
+            "score": 0.9986541,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.pepperonpizza.com/bamboo-shoot-curry-coorg-baimbale/",
+            "title": "Bamboo Shoot Curry - Coorg style Baimbale Kari - PepperOnPizza",
+            "content": "A bowl of bamboo shoot curry with a garnish of coriander leaves and with props showing the Karnataka theme- A guide book to Karnataka, a book by R K Narayanan who lived at Mysore, a Mysore silk saree \n\nMy partner for the month is Priya Iyer. Priya and I had a lengthy discussion on what ingredients to pick. Both of us wanted to cook with something special or unique to Karnataka. Priya suggested I used Bamboo Shoots and coconut as the two 'secret' ingredients which the members of the group would have to guess, once I posted the image of the dish on our group. The bamboo shoot curry was the result of this discussion. [...] The fresh bamboo shoots have a tough husk which can be peeled off without difficulty, and the bamboo sliced as required. I was lucky to find an online store, OnlineMangaloreStore which delivered the bamboo to my residence, already peeled and sliced into thick rounds. I then soaked for 72 hours as explained in the instructions below. Most recipes suggest that 48 hours of soaking should do, but after some research I decided to soak the shoots for an extra day before I sliced them into thin matchsticks and boiled them with turmeric. The online store was interesting, I was able to pick up quite a few items which I would normally have to scour the Mangalore Stores around for. I plan to get Breadfruit from them and try a curry out of that too. [...] My friends Kevin and Anirudh had dropped in the day the Bamboo Shoot Curry was made, and as Kevin is from Mangalore and a devoted foodie as well as being no stranger to the kitchen, I requested him to taste it. He felt that it lacked a certain tartness or sourness and suggested the addition of tamarind. I have to say it lifted the curry up a notch and has therefore found its way into the final recipe. Let me add however that tamarind is not normally included in the traditional Coorg cuisine bamboo shoot curry, as far as I understand.\n\nBamboo shoot curry served in a brass bowl with garnish of coriander leaves, resting on a banana leaf with a pale pink mysore silk saree alongside",
+            "score": 0.99783427,
+            "raw_content": null
+          }
+        ],
+        "response_time": 2.42,
+        "request_id": "15c71f61-f793-4278-b964-379aebbb5e58"
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "name": "search",
+      "id": "295feeb3-a728-4c7f-9ea0-47028adf16d1",
+      "tool_call_id": "60e51aa7-341d-43f8-ae7f-709669daff4b",
+      "content": {
+        "query": "ragi dumplings with mahua and bamboo shoot recipe",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.beautifulvoyager.com/soon-kueh-jicama-bamboo-shoots-dumplings/",
+            "title": "Soon Kueh 笋粿 (Bamboo Shoots Dumplings) - Beautiful Voyager Kitchen",
+            "content": "#### Filling\n\n 500 g jicama , bangkuang or turnip\n 400 g bamboo shoots\n 1 carrot\n 5 dried mushrooms\n 50 g dried baby shrimps\n 100 g shallots\n 2  tbsp vegetable oil\n 2  tbsp Shaoxing wine\n 2 tbsp fish sauce, season to taste\n White pepper, season to taste\n 1 tbsp oyster sauce, season to taste\n ½ cup water\n\n### Instructions\n\n#### Make the skin\n\n In a mixing bowl, mix all the dry ingredients (100g wheat starch, 60g tapioca flour, 1/2 tsp fine salt) together. Use a chopstick to stir until well mixed.\n\n  flour\n Add in 200ml hot boiling water gradually (important to add gradually) and use the chopstick to stir until it forms a lumpy dough. [...] steam the soon kueh\n After steaming, brush some vegetable oil on the soon kueh.\n\n  apply oil\n Serve warm with dark soy sauce and chilli sauce.\n\n  steam the soon kueh\n\n### Notes\n\nThis recipe makes about 12 pieces with some excess filling.\n\n## You May Also Like\n\n ## 15-minute Crab Fried Rice | 15分钟蟹肉炒饭\n ## Homemade Laksa Paste 叻沙醬\n ## Baked Crispy Shallots\n\n## Comments\n\n1. Ms Tan avatar\n\n   Ms Tan\n\n   5 stars  \n    My favourite kueh! will definitely try this recipe as i cannot find soon kueh here in Germany. Thanks for sharing!\n\n   Reply\n\n   1. Beautiful Voyager avatar\n\n      Beautiful Voyager\n\n      Oh yes hope you try it out 😀\n\n      Reply\n2. Santos avatar\n\n   Santos\n\n   5 stars  \n    Bambo shoot is my favorite food.  \n    Mmmmm\n\n   Reply\n\n   1. Beautiful Voyager avatar [...] mushrooms\n Peel jicama and carrots. Julienne 500g jicama, 400g bamboo shoots, 1 carrot (can use a food mixer with blade attachment to shred jicama and carrots).\n  Peel off 100g shallots and slice into thin strips.\n\n  cut the vegetables\n Sauté dried baby shrimps and shallots with 4 tbsp cooking oil until aroma is released.\n\n  fry the filling\n Add jicama, bamboo shoots, carrots, mushrooms and stir fry.\n\n  fry the filling\n Add about 1/2 cup water and let it simmer until jicama and bamboo shoots turn soft, with lid covered. Takes about 20-30 minutes.\n\n  fry the filling\n Add fish sauce, white pepper, shaoxing wine, oyster sauce. Season to taste. Fry until liquid evaporates. Set aside in a plate and let it cool.\n\n  fry the filling\n\n#### Assemble the Soon Kueh",
+            "score": 0.5683445,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.sizzlingtastebuds.com/ragi-mudde-ragi-sankati-steamed-finger/",
+            "title": "Ragi mudde | Ragi Sankati | Traditional finger millet steamed dumplings",
+            "content": "1. First sieve the flour well twice over\n2. Make a slurry of the 1 TBSP ragi in the 1/4 cup water to a smooth slurry without any lumps\n3. In a deep bottomed pan, boil 2 cups of water with salt and 1/2 tsp of ghee or oil.\n4. When it comes to rolling boil, pour the slurry into the water and keep stirring this for 1-2 mins till it slightly froths\n5. Let the mixture boil\n6. Now add the dry flour in batches – do NOT MIX for 3-4 mins\n7. Let it cook without a lid in the steam generated by the bubbling slurry + water on MEDIUM heat\n8. After 3 mins, with a wooden ladle, lower the heat and briskly mix the dumpling dough well to prevent lumps\n9. Depending on the quality of the flour and freshness, you may need 4-5 tsp of additional HOT water to bring the dough without any dry streaks. [...] First sieve the flour well twice over\n Make a slurry of the 1 TBSP ragi in the 1/4 cup water to a smooth slurry without any lumps\n In a deep bottomed pan, boil 2 cups of water with salt and 1/2 tsp of ghee or oil.\n When it comes to rolling boil, pour the slurry into the water and keep stirring this for 1-2 mins till it slightly froths\n Let the mixture boil\n Now add the dry flour in batches – do NOT MIX for 3-4 mins\n Let it cook without a lid in the steam generated by the bubbling slurry + water\n After 3 mins, with a wooden ladle, lower the heat and briskly mix the dumpling dough well to prevent lumps\n Depending on the quality of the flour and freshness, you may need 4-5 tsp of additional HOT water to bring the dough without any dry streaks [...] Liked this recipe? SIGN UP FOR THE Sizzling Tastebuds Newsletter (No Spam, Promise!) for fresh, healthy and tasty recipes right into your inbox . Please consider leaving a star ???? rating on this recipe for us to get you the best recipes out there.   FOLLOW Sizzling Tastebuds ON Facebook, Twitter, Pinterest AND  Instsgram for fresh content, latest recipes and much more!\n\nA traditional Karnataka style steamed finger millet dumpling. Served with sambhar or curry for a filling mealPin\n\nPreparation time: 10 mins ; Cooking time : 10 mins ; Serves : 2\n\nCuisine: Karnataka ; Course: Breakfast / Lunch\n\nIngredients to make Ragi mudde:\n\n 1 cup Finger millet flour (Ragi flour – about 200 grams)\n 2 cups Water (approx. 400 ml)\n 1/4 tsp Salt\n 1 TBSP Ghee (sub with oil for a vegan version)",
+            "score": 0.5674818,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/HomeCookingShow/videos/ragi-kozhukattai-dumplings-dumplings-recipe-ragi-recipes/1243656813671873/",
+            "title": "Ragi Kozhukattai - Dumplings Recipe",
+            "content": "The first step for this recipe is to melt the jaggery. I am taking about 250 ML cup of powdered jaggery. To the sauce pan add the jaggery and",
+            "score": 0.4671622,
+            "raw_content": null
+          },
+          {
+            "url": "https://whattocooktoday.com/soon-kueh.html",
+            "title": "Teochew Soon Kueh (Jicama Bamboo Shoots Dumplings)",
+            "content": "## HOW TO MAKE SOON KUEH FILLING\n\n1. Stir fry the dried shrimp until aromatic, about 1 minute  \n  \n2. Add garlic and stir fry again for another 30 seconds  \n  \n3. Add the veggies: jicama, carrots, and bamboo shoots  \n  \n4. Add cooking wine and seasonings  \n  \n  \n5. Stir to mix everything and have a final taste. Add more salt if needed  \n  \n6. Let the cooked filling cooled down before wrapping  \n\n## HOW TO WRAP SOON KUEH [...] Teochew Soon Kueh (Jicama Bamboo Shoots Dumplings)\n\n## INGREDIENTS [...] ## HOW TO WRAP SOON KUEH\n\nWatch my video on my new favorite way of wrapping soon kueh without rolling each dough. I love the new way of wrapping because it makes the dumpling really nice and full. This step-by-step photos here were taken before I discovered this new way of wrapping. It's up to you which way you want to use.  \n1. Divide the dough into 30 equal pieces. Work with one dough at a time by flattened the dough and roll out into a circle, about 5-inch in diameter. Put filling in the middle  \n  \n2. Fold the skin over to enclose the dumpling to form a half-circle  \n  \n3. Steam the dumplings over high heat for 10 minutes  \n  \n4. Brush the steamed dumpling with cooking oil. They are ready to be served  \nTeochew Soon Kueh (Jicama Bamboo Shoots Dumplings)",
+            "score": 0.43438992,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/C3E8QuhSgt-/",
+            "title": "Instagram",
+            "content": "Ingredients: (12-15 Momos) Filling: * 1/2 cup Cabbage, minced * 1/2 cup Carrot, minced * 1/2 cup onion, minced * 1 cup paneer * 1 tbsp ginger",
+            "score": 0.049575314,
+            "raw_content": null
+          }
+        ],
+        "response_time": 3.91,
+        "request_id": "77adb6b6-ef2e-436e-b989-c3e2611de8b7"
+      }
+    },
+    {
+      "type": "AIMessage",
+      "content": [],
+      "additional_kwargs": {
+        "function_call": {
+          "name": "search",
+          "arguments": "{\"query\": \"\\\"Mahua\\\" \\\"bamboo shoots\\\" \\\"ragi\\\" recipe\"}"
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-3-flash-preview",
+        "safety_ratings": [],
+        "model_provider": "google_genai"
+      },
+      "id": "lc_run--019de33b-bfa5-7932-82e5-c6031163baf0-0",
+      "tool_calls": [
+        {
+          "name": "search",
+          "args": {
+            "query": "Mahua and Bamboo shoot curry with Ragi recipe Jharkhand tribal cuisine"
+          },
+          "id": "88d542d5-0ee3-4586-90dd-ac35e4133c53",
+          "type": "tool_call"
+        },
+        {
+          "name": "search",
+          "args": {
+            "query": "\"Mahua\" \"bamboo shoots\" \"ragi\" recipe"
+          },
+          "id": "ae84e09a-28b8-4a78-9005-4455372c3dc3",
+          "type": "tool_call"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 7714,
+        "output_tokens": 619,
+        "total_tokens": 8333,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 566
+        }
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "name": "search",
+      "id": "58821353-d2ef-4adb-bb53-bf46a3fb03bf",
+      "tool_call_id": "88d542d5-0ee3-4586-90dd-ac35e4133c53",
+      "content": {
+        "query": "Mahua and Bamboo shoot curry with Ragi recipe Jharkhand tribal cuisine",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=KRV2fTuaZOM",
+            "title": "Tribal Mahua Curry Recipe @villagetriballife",
+            "content": "Mahua Fruits Curry Recipe || Tribal Mahua Curry Recipe @villagetriballife #villagetribe #tribalcurry #mahuacurry #mahuafruit",
+            "score": 0.9997998,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=cJqh7y4jkRA",
+            "title": "Bamboo shoot curry making || Baunsa karadi curry || village tribal life",
+            "content": "Comments · କରଡ଼ି ଭଜା | Kardi Bhaja | Bamboo Shoots Recipe | Karadi Recipe | Aamar Randhaghar · Ranu Madicine Kaise Banta Hain || Tribal Ranu Dowai ||",
+            "score": 0.99935883,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.timesnownews.com/lifestyle/food/red-ants-bamboo-chicken-and-mahua-laddoos-8-forgotten-tribal-dishes-that-take-you-deep-into-indias-wildest-food-traditions-article-152371627",
+            "title": "Red Ants, Bamboo Chicken And Mahua Laddoos: 8 Forgotten Tribal Dishes That Take You Deep Into India's Wildest Food Traditions | Times Now",
+            "content": "Flavour profile: Cool, sour, light.\n\nThis dish was born for Odisha's sweltering summers. Leftover rice is soaked overnight in water and curd, lightly salted, and eaten cold the next day with onions, chillies or dry fish. For many tribal farmers, it's the breakfast of champions.\n\nHealth bonus: It's a probiotic dream—great for gut health, especially when the heat drains your appetite.\n\nQuick tweak: Add a sizzling tadka of mustard seeds, curry leaves, and garlic for an extra kick.\n\n## 8. Kodo Millet Khichdi – Jharkhand\n\nTribal name: Kodo Bhaat\n\nFlavour profile: Nutty, soft, warming. [...] Kitchen tip: If you're stuck in the city, try wrapping marinated chicken in banana leaves and steaming it—an homage to the original.\n\n## 3. Ragi Mudde – Karnataka\n\nTribal name: Just Ragi Mudde (it means finger millet lump!)\n\nFlavour profile: Earthy, dense, wonderfully wholesome.\n\nThe Soliga tribe, nestled in Karnataka's forest belt, has relied on this for centuries. Just finger millet flour and water stirred into a firm dough ball. No spices. No oil. Served with rasam or sambar, it's satisfying and strong on nutrition.\n\nFun fact: Ragi has three times more calcium than milk and is naturally gluten-free. Grandmothers everywhere approve.\n\nTrad tip: You don't chew Mudde. You pinch, dip, and swallow like the locals. Slurping encouraged.\n\n## 4. Silkworm Curry – Nagaland\n\nTribal name: Aenchi [...] ## 4. Silkworm Curry – Nagaland\n\nTribal name: Aenchi\n\nFlavour profile: Umami-heavy, nutty, rich.\n\nBefore you raise an eyebrow, know this: silkworm curry is a prized protein in Nagaland's Ao tribe. The pupae are stir-fried with bamboo shoot brine, ginger, and herbs, delivering an intense depth of flavour.\n\nBet you didn't know: Insects like silkworms are part of global conversations on sustainable protein. Tribal India was ahead of the curve—by about 2,000 years.\n\nCurious but cautious? Start with dried silkworm snacks before diving into the curry pot.\n\n## 5. Mahua Laddoos – Madhya Pradesh\n\nTribal name: Mahua ke laddu\n\nFlavour profile: Sweet, nutty, with a fermented edge.",
+            "score": 0.9965166,
+            "raw_content": null
+          },
+          {
+            "url": "https://idronline.org/article/diversity-inclusion/four-tribes-four-recipes-and-much-more-than-zero-waste-cooking/",
+            "title": "Four tribes, four recipes, and much food for thought - IDR",
+            "content": "The Koya tribe, which I belong to, has a rich history of consuming nutritious food. Most of our food came from the forests. We ate vegetables, herbs, and flowers, including the mahua flower. Many people have heard about mahua, but they associate it with alcohol. However, the Koyas and other tribes living in Andhra Pradesh, Telangana, Jharkhand, and Maharashtra use mahua flower to make kheer, jam, biscuits, and laddus. In fact, even now, pregnant women in our community consume mahua laddu because it increases haemoglobin and works as an iron supplement for them.\n\nMahua laddu recipe-zero-waste cooking\nMahua laddu recipe-zero-waste cooking [...] Mahua and other indigenous food like tembhurni were once abundant in West Godavari district. However, this isn't the case any more. Now we buy these from the neighbouring East Godavari district. Due to the shifting cultivation that is practised in our district, we lost a lot of forest area where we used to grow mahua trees. Then there are development projects because of which we lost access to the forest. We can no longer legally collect resources from our own forests. [...] My father used to hunt deer, rabbits, and wildlife, and we would eat their meat. When we lost the jungle, we also lost these animals. We used to eat many parts of the bamboo plant, but bamboo is scarce now. I work with a self-help group where apart from teaching young women how to save money, I also teach them the benefits of Warli food and how to prepare it. These women perform agricultural and other types of labour and then make time for these sessions. They themselves procure the ingredients that we cook with, which means a good part of their day goes in foraging. Loss of time is loss of money for them. I wish the government came up with a way to financially support these women who want to learn and preserve the food of their tribe.\n\n### Dwipanita Rabha, Rabha tribe, Meghalaya",
+            "score": 0.9750122,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DLXQWXsvVz9/",
+            "title": "Instagram",
+            "content": "आज हम खा रहे हैं मड़वा की पत्ता रोटी so काफी interesting से साल के पत्ते हैं मड़वा या रागी आप कह सकते हैं इसे और रागी के आटे को पत्ते के साथ पत्ते पे लगाया गया है और फिर उसे आग में cook किया",
+            "score": 0.8198933,
+            "raw_content": null
+          }
+        ],
+        "response_time": 3.95,
+        "request_id": "be74fca5-f1e3-4ae9-b1e8-dc22ab9d8f4e"
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "name": "search",
+      "id": "70eb454c-3905-40df-a77f-6dfb69cb2a62",
+      "tool_call_id": "ae84e09a-28b8-4a78-9005-4455372c3dc3",
+      "content": {
+        "query": "Mahua bamboo shoots ragi recipe",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=q-pm9--BEUc",
+            "title": "RAGI ROTTI | SOUTH INDIAN STYLE | D TASTY POT",
+            "content": "BAMBOO SHOOT RECIPE (PALYA) | RAGI ROTTI | SOUTH INDIAN STYLE | D TASTY POT|. 163 views · 1 year ago. #kannadarecipes #asmr #satisfyingvideo.",
+            "score": 0.99750805,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.ruchikrandhap.com/keerl-ani-moog-sukho-bamboo-shoots/",
+            "title": "Keerl Ani Moog Sukho (Bamboo Shoots & Sprouted Green Gram Sauté) - Ruchik Randhap",
+            "content": "The nutritional values are only indicative.\n\nImages captured during the initial publication of this post on 4th November 2011\n\nFiled Under: All Posts, Mangalorean Recipes, Monthi Feast, Sides, Vegetarian Tagged With: Authentic Mangalorean Food, Bamboo Shoots, Green Gram, Green Gram Sprouts, Moong, Moong Sprouts, Stir Fry, Traditional Mangalorean Food\n\n## Reader Interactions\n\n### Leave a Reply Cancel reply\n\nYour email address will not be published. Required fields are marked \\\n\nComment \\\n\nName \\\n\nEmail \\\n\nWebsite\n\nΔ\n\nThis site uses Akismet to reduce spam. Learn how your comment data is processed.\n\n## Comments\n\nPriya says\n\nNovember 4, 2011 at 10:09 am\n\nNever cooked bamboo shoots this way,super nutritious and delicious sukho..\n\nSwati Sapna says\n\nNovember 4, 2011 at 12:12 pm [...] Sumee says\n\nNovember 4, 2011 at 3:32 pm\n\nI love Keerl.. Though hard to get it fresh over here, always enjoyed them back home.\n\nTina says\n\nNovember 4, 2011 at 5:33 pm\n\nDelicious nd healthy combo…\n\nSobha Shyam says\n\nNovember 4, 2011 at 8:44 pm\n\na healthy dish, lovely combo and looks super delicious..\n\nNeha says\n\nNovember 4, 2011 at 9:07 pm\n\nI have never had bamboo shoots before…Can try this recipe now…It looks very yummy…\n\nsangee vijay says\n\nNovember 4, 2011 at 9:10 pm\n\nthis is one healthy and delicious recipe….never tried this way and looks more inviting…\n\naipi says\n\nNovember 5, 2011 at 4:16 am\n\nBamboo shoots never looked so appetyzing! I get totally blown over when I see delicacies that are regional favorites like these..  \nUSMasala\n\nUma says\n\nNovember 6, 2011 at 3:43 pm [...] ### An oriental heritage in our palate\n\nNon Mangaloreans may have heard about the bamboo shoots being famous in Asian cooking and it being immensely loved by the oriental people – I am guessing that Mangaloreans must be from the same gene pool (ha ha) cuz we love it too! The best way to prepare it of course is to cook it along with moog/moong (whole or sprouted green gram). Bamboo shoots or bamboo sprouts that come out of the ground are edible and are found in fresh, dried or canned form. It has a distinct taste and is often cooked along with other ingredients. In the Far East it is usually cooked in broths or main courses especially with meat like pork or beef. In India it is famously eaten in its fermented form in many parts of North East India especially Manipur & Nagaland.",
+            "score": 0.9908035,
+            "raw_content": null
+          },
+          {
+            "url": "https://foodism.xyz/food-stories/Cooking-with-Indigenous-Ingredients-A-Celebration-of-Indian-Identity",
+            "title": "1. Ragi (Finger Millet) Dosa – Cooking with Local Indian Grains",
+            "content": "Ragi dosa is a delicious and healthy South Indian breakfast made with nutrient-rich ragi flour. This ragi dosa recipe uses a mix of ragi flour, rice flour",
+            "score": 0.8344069,
+            "raw_content": null
+          },
+          {
+            "url": "https://idronline.org/article/diversity-inclusion/four-tribes-four-recipes-and-much-more-than-zero-waste-cooking/",
+            "title": "Four tribes, four recipes, and much food for thought - IDR",
+            "content": "The Koya tribe, which I belong to, has a rich history of consuming nutritious food. Most of our food came from the forests. We ate vegetables, herbs, and flowers, including the mahua flower. Many people have heard about mahua, but they associate it with alcohol. However, the Koyas and other tribes living in Andhra Pradesh, Telangana, Jharkhand, and Maharashtra use mahua flower to make kheer, jam, biscuits, and laddus. In fact, even now, pregnant women in our community consume mahua laddu because it increases haemoglobin and works as an iron supplement for them.\n\nMahua laddu recipe-zero-waste cooking\nMahua laddu recipe-zero-waste cooking [...] Mahua and other indigenous food like tembhurni were once abundant in West Godavari district. However, this isn't the case any more. Now we buy these from the neighbouring East Godavari district. Due to the shifting cultivation that is practised in our district, we lost a lot of forest area where we used to grow mahua trees. Then there are development projects because of which we lost access to the forest. We can no longer legally collect resources from our own forests. [...] My father used to hunt deer, rabbits, and wildlife, and we would eat their meat. When we lost the jungle, we also lost these animals. We used to eat many parts of the bamboo plant, but bamboo is scarce now. I work with a self-help group where apart from teaching young women how to save money, I also teach them the benefits of Warli food and how to prepare it. These women perform agricultural and other types of labour and then make time for these sessions. They themselves procure the ingredients that we cook with, which means a good part of their day goes in foraging. Loss of time is loss of money for them. I wish the government came up with a way to financially support these women who want to learn and preserve the food of their tribe.\n\n### Dwipanita Rabha, Rabha tribe, Meghalaya",
+            "score": 0.71701187,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DK6tjzNRM6q/",
+            "title": "Instagram",
+            "content": "We paired this meal with bamboo shoot king chili pickle and thoroughly classic Assam condiment. ... Indian Tribal Recipes passed down from mother",
+            "score": 0.28616926,
+            "raw_content": null
+          }
+        ],
+        "response_time": 4.1,
+        "request_id": "7c71606d-5ca8-417d-8ee3-8cda0a91d74f"
+      }
+    },
+    {
+      "type": "AIMessage",
+      "content": [
+        {
+          "type": "text",
+          "text": "Based on the traditional tribal cuisines of Jharkhand, Odisha, and Central India where these ingredients are staples, here is a recipe for a nutritious and authentic forest-to-plate meal.\n\n### **Recipe Name: Tribal Mahua & Bamboo Shoot Sauté (Kardi-Mahua Bhaja) with Ragi Mudde**\n\nThis dish combines the natural sweetness of Mahua flowers with the earthy, pungent flavor of bamboo shoots, served alongside wholesome Ragi (Finger Millet) dumplings.\n\n#### **Ingredients:**\n*   **For the Sauté:**\n    *   1 cup Fresh or Dried Mahua flowers (if dried, soak in water for 2 hours)\n    *   1 cup Bamboo shoots (finely chopped; if fresh, soak in water for 2 days, changing water daily to remove bitterness)\n    *   2 tbsp Mustard Oil\n    *   2-3 Green chilies (slit)\n    *   4-5 Garlic cloves (crushed)\n    *   1 tsp Cumin seeds\n    *   1/2 tsp Turmeric powder\n    *   Salt to taste\n*   **For the Ragi Mudde (Dumplings):**\n    *   1 cup Ragi flour (Finger millet)\n    *   2.5 cups Water\n    *   A pinch of salt\n\n---\n\n#### **Instructions:**\n\n**Step 1: Prepare the Mahua and Bamboo Shoots**\n1.  Clean the Mahua flowers thoroughly. If using dried flowers, ensure they are soft after soaking. Drain the water.\n2.  If using fresh bamboo shoots, ensure they have been pre-soaked to remove the acrid taste. Squeeze out excess water.\n\n**Step 2: Make the Sauté**\n1.  Heat **mustard oil** in a heavy-bottomed pan or kadai until it begins to smoke slightly (this removes the raw pungency of the oil).\n2.  Add cumin seeds and let them splutter. Add the crushed garlic and green chilies, sautéing until the garlic turns golden brown.\n3.  Add the chopped bamboo shoots and sauté on medium heat for 5-7 minutes.\n4.  Add the Mahua flowers, turmeric powder, and salt. \n5.  Cover and cook on low heat for another 10 minutes, stirring occasionally. The Mahua flowers will release a slight sweetness that balances the bamboo shoots. Cook until the moisture evaporates and the mixture is slightly crisp.\n\n**Step 3: Prepare the Ragi Mudde**\n1.  In a deep pot, bring 2 cups of water and a pinch of salt to a rolling boil.\n2.  In a small bowl, mix 2 tablespoons of ragi flour with the remaining 1/2 cup of water to make a smooth, lump-free slurry.\n3.  Slowly pour this slurry into the boiling water while stirring constantly to avoid lumps.\n4.  Once the mixture starts to bubble and thicken, add the remaining ragi flour into the center of the pot. **Do not stir immediately.** Let it cook on medium heat for 2-3 minutes in the steam.\n5.  Using a wooden stick or ladle, vigorously mix the flour into the water until it forms a smooth, dough-like ball.\n6.  Cover and let it steam on very low heat for another 2 minutes.\n7.  Wet your palms with water and shape the hot dough into smooth balls (Mudde).\n\n**Step 4: Serving**\n1.  Place the warm Ragi Mudde on a plate.\n2.  Serve the **Mahua and Bamboo Shoot Sauté** on the side. \n3.  Traditionally, a small dollop of ghee can be added to the Ragi, but for an authentic tribal experience, it is enjoyed directly with the mustard-oil-tempered sauté."
+        }
+      ],
+      "additional_kwargs": {},
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-3-flash-preview",
+        "safety_ratings": [],
+        "model_provider": "google_genai"
+      },
+      "id": "lc_run--019de33b-e6f5-72a2-83c9-9b9a55bd4900-0",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 11434,
+        "output_tokens": 1278,
+        "total_tokens": 12712,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 467
+        }
+      }
+    }
+  ]
+}
